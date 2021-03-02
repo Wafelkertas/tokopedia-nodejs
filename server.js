@@ -73,4 +73,4 @@ const data = (req, res) => {
 };
 app.use("/api", router.get("/products", data));
 
-app.listen(5000);
+app.listen(process.env.PORT);
